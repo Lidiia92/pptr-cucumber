@@ -1,0 +1,26 @@
+{
+  "name": "pptr-cucumber",
+  "version": "1.0.0",
+  "description": "Puppeteer with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber_report.json",
+    "generate:report": "node report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lidiia92/pptr-cucumber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lidiia92/pptr-cucumber/issues"
+  },
+  "homepage": "https://github.com/Lidiia92/pptr-cucumber#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "puppeteer": "^4.0.0"
+  }
+}
